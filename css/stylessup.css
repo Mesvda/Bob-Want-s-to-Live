@@ -32,7 +32,9 @@ a{
 }
 html{
     background-color: rgb(43, 43, 43);
-    background-image: url('images/victor-villa-medieval-hell-full-hd-art.jpg');
+    background-image: url('../images/victor-villa-medieval-hell-full-hd-art.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 h1{
     display: flex;

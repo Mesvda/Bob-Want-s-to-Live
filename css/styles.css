@@ -31,7 +31,6 @@ a{
     text-decoration: none;
 }
 html{
-    background-color: rgb(43, 43, 43);
     background-image: url('../images/doom.jpg');
     background-size: cover;
     background-repeat: no-repeat;
