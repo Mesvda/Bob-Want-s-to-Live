@@ -1,7 +1,7 @@
 section.top-page {
     padding: 5px;
     background-size: cover;
-    background-color: rgb(176,159,151,255);
+    background-color: rgba(202, 202, 202, 0.5);
 }
 @font-face {
     font-family: 'crypto_crashregular';
@@ -32,6 +32,11 @@ a{
 }
 html{
     background-color: rgb(43, 43, 43);
+    background-image: url('../images/doom.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-size: 100%;
 }
 h1{
     display: grid;

@@ -2,6 +2,7 @@ section.top-page {
     padding: 5px;
     background-size: cover;
     background-color: rgb(176,159,151,255);
+    
 }
 @font-face {
     font-family: 'crypto_crashregular';
@@ -39,7 +40,7 @@ h1{
     font-family: 'crypto_crashregular';
     font-size: 80px;
 }
-img{
+.logo{
     width: 80px;
     position: absolute;
     top: 0;
@@ -50,14 +51,28 @@ img{
 html{
     background-color: rgb(43, 43, 43);
 }
-.text-zone {
+.text-zone{
+    align-items: center;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'lotusf';
+}
+.centre{
+    width: 240px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    background-color: rgb(176,159,151,255);
-  }
+    display: flex;
+}
+.dos{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    display: flex;
+}
+h2{
+    margin-left: 50px;
+    width: 700px;
+}
