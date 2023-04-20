@@ -1,7 +1,7 @@
 section.top-page {
     padding: 5px;
     background-size: cover;
-    background-color: rgb(176,159,151,255);
+    background-color: rgb(176,159,151, 0.7);
 }
 @font-face {
     font-family: 'crypto_crashregular';
@@ -32,6 +32,7 @@ a{
 }
 html{
     background-color: rgb(43, 43, 43);
+    background-image: url('../images/lava.jpg');
 }
 h1{
     display: grid;
@@ -56,8 +57,10 @@ html{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
-    max-width: 800px;
     margin: 0 auto;
     text-align: center;
     background-color: rgb(176,159,151,255);
-  }
+}
+h2{
+    font-family: fantasy;
+}

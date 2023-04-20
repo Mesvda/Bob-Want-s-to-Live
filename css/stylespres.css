@@ -1,7 +1,7 @@
 section.top-page {
     padding: 5px;
     background-size: cover;
-    background-color: rgb(176,159,151,255);
+    background-color: rgb(176,159,151, 0.7);
     
 }
 @font-face {
@@ -33,6 +33,9 @@ a{
 }
 html{
     background-color: rgb(43, 43, 43);
+    background-image: url('../images/lava\ planet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1{
     display: grid;
@@ -52,8 +55,10 @@ html{
     background-color: rgb(43, 43, 43);
 }
 .text-zone{
+    background-color: rgb(176,159,151,255);
+    margin-top: 8%;
     align-items: center;
-    height: 600px;
+    height: 400px;
     display: flex;
     justify-content: space-between;
     font-family: 'lotusf';
@@ -74,5 +79,6 @@ html{
 }
 h2{
     margin-left: 50px;
-    width: 700px;
+    width: 800px;
+    justify-content: space-around;
 }
