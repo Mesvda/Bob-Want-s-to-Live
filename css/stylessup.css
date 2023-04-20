@@ -1,7 +1,7 @@
 section.top-page {
     padding: 5px;
     background-size: cover;
-    background-color: rgb(176,159,151,255);
+    background-color: rgb(176,159,151, 0.7);
 }
 @font-face {
     font-family: 'crypto_crashregular';
